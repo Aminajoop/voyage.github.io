@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: century;
+    }
+    header{
+        background-image: url(./business-5475283_1280.jpg);
+        height: 70vh;
+        background-position: center;
+    }
+    .nav_list{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 30px;
+    }
+    .nav_list li a{
+    text-decoration-style: solid;
+    color:#fdd2d2;
+    padding: 15px 25px;
+    text-transform:uppercase;
+    border: 3px solid  #abc5e7;
+    margin: 10px;
+    font-weight: 1000;
+    border-radius: 12px;
+    transition: 0,6s ease;
+    font-size: x-large;
+    text-shadow: 4px 4px 8px rgb(46, 45, 45);
+    }
+    
+    
+    .nav_list li a:hover{
+    background: #4b95d1b7;
+    color:#fdd2d2 ;
+    }
+    .nav_list li.active a{
+    background:#4b95d1b7 ;
+    color: #fdd2d2 ;
+    }
+    .principale{
+    max-width: 114rem;
+    margin: 0 auto;
+    }
+    @font-face {
+        font-family: 'Malvinas Signature';
+        src: url(malvinas_signature.ttf), format(truetype);
+        font-weight: normal;
+    }
+    .titre{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+    .titre h1{
+    color: #fdd2d2;
+    font-size: 70px;
+    text-align: center;
+    margin-right: auto;
+    text-shadow: 4px 4px 10px rgb(3, 3, 3);
+    }
+    
+    .main{
+    background-image: url(./bokeh-2152298_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+    .main-section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    
+    .article__image{
+        margin: 50px 0;
+        border-radius: 12px;
+        box-shadow: 4px 24px 10px rgb(46, 45, 45);
+        height: 400px;
+        width:300px;
+    
+    }
+    p{
+        font-size:300px;
+        text-shadow: 4px 4px 10px rgb(46, 45, 45)
+    }
+    .main-section a:hover img{
+        transform: scale(1.2,1.2);
+    }
+    footer{
+        text-align: center;
+        height: 100px; 
+        }
+        p{
+            font-size: 80px;
+            margin-top: 40px;
+            font-family: 'Malvinas Signature';
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    

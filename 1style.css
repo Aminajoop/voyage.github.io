@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{
+    background-image: url(./kaaba-4374111_1280.jpg);
+    height: 70vh;
+    background-position: center;
+
+}
+.nav_list{
+list-style: none;
+float: right;
+display: flex;
+margin-top: 30px;
+}
+.nav_list li a{
+text-decoration-style: solid;color:#080808;
+padding: 15px 25px;
+text-transform:uppercase;
+border: 3px solid #080808;;
+margin: 10px;
+font-weight: 1000;
+border-radius: 12px;
+transition: 0,6s ease;
+font-size: x-large ;
+text-shadow: 2px 2px 5px rgb(46, 45, 45);
+}
+
+
+.nav_list li a:hover{
+background: #807d7d6c;
+color: #080808;
+}
+.nav_list li.active a{
+background: #807d7d6c; 
+color: #080808;
+}
+.principale{
+max-width: 114rem;
+margin: 0 auto;
+}
+
+.titre{
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.titre h1{
+color: #080808;
+font-size: 100px;
+text-align: center;
+margin-right: auto;
+text-shadow: 2px 2px 5px rgb(46, 45, 45);
+}
+
+.main{
+background-image: url(./abstract-1846962_1280.jpg);
+background-size: cover;background-position: center;
+}
+.main-section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@font-face {
+    font-family: 'Malvinas Signature';
+    src: url(malvinas_signature.ttf), format(truetype);
+    font-weight: normal;
+}
+
+.article__image{
+    margin: 50px 0;
+    border-radius: 12px;
+    box-shadow: 4px 24px 10px rgb(46, 45, 45);
+    height: 400px;
+    width:300px;
+}
+p{
+    font-size:large;
+    text-shadow: 2px 2px 5px rgb(46, 45, 45)
+}
+.main-section a:hover img{
+    transform: scale(1.2,1.2);
+}
+footer{
+text-align: center;
+height: 100px; 
+}
+p{
+    font-size: 80px;
+    margin-top: 40px;
+    font-family: 'Malvinas Signature';
+}
+
+
+
+
+
